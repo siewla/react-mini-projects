@@ -1,0 +1,2 @@
+(this.webpackJsonpsimplified_cra_starter_code=this.webpackJsonpsimplified_cra_starter_code||[]).push([[0],{11:function(e,t,c){"use strict";c.r(t);c(1);var n=c(3),r=c.n(n),i=(c(8),c(9),c(0));var s=function(){return Object(i.jsx)("div",{className:"App",children:Object(i.jsx)("h1",{children:"TV MAZE"})})};r.a.render(Object(i.jsx)(s,{}),document.getElementById("root"))},8:function(e,t,c){},9:function(e,t,c){}},[[11,1,2]]]);
+//# sourceMappingURL=main.bb61fd58.chunk.js.map
