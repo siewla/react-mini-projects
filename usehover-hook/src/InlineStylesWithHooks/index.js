@@ -39,8 +39,6 @@ export default function InlineStyle(props) {
         case "successStyles":
           actualStyles = successStyles;
           break;
-        default:
-          actualStyles = "";
       }
       return <button style={actualStyles}>{d}</button>;
     });
