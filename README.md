@@ -6,12 +6,12 @@ https://siewla.github.io/react-mini-projects/
 
 1. Weather Icons
    [Code](./weather-icons)
-   [Demo](https://siewla.github.io/react-mini-projects/weather-icons/build/index.html)
+   [Demo](https://siewla.github.io/react-mini-projects/weather-icons/build/)
 
 2. React Cities
    [Code](./react-cities)
-   [Demo](https://siewla.github.io/react-mini-projects/weather-icons/build/index.html)
+   [Demo](https://siewla.github.io/react-mini-projects/react-cities/build/)
 
 3. Shopping Cart
    [Code](./shopping-cart)
-   [Demo](https://siewla.github.io/react-mini-projects/weather-icons/build/index.html)
+   [Demo](https://siewla.github.io/react-mini-projects/shopping-cart/build/)
