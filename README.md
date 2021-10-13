@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+# React Mini Projects
 
-You can use the [editor on GitHub](https://github.com/siewla/react-mini-projects/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+https://siewla.github.io/react-mini-projects/
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## List of Projects
 
-### Markdown
+1. Weather Icons
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+   - [Code](./weather-icons)
+   - [Demo](https://siewla.github.io/react-mini-projects/weather-icons/build)
 
-```markdown
-Syntax highlighted code block
+2. React Cities
 
-# Header 1
-## Header 2
-### Header 3
+   - [Code](./react-cities)
+   - [Demo](https://siewla.github.io/react-mini-projects/weather-icons/build)
 
-- Bulleted
-- List
+3. Shopping Cart
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/siewla/react-mini-projects/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+   - [Code](./shopping-cart)
+   - [Demo](https://siewla.github.io/react-mini-projects/weather-icons/build)
