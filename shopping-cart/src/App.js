@@ -24,7 +24,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Big Time Shopping</h1>
+      <h1 class="bg-secondary white-text p-5">Shopping Time</h1>
       <AddNewProductForm addToProducts={addToProducts} />
       <div className="products">
         <AllTheThings products={products} handleClick={addToCart} />

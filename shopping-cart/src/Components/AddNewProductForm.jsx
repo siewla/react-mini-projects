@@ -17,29 +17,43 @@ const AddNewProductForm = ({ addToProducts }) => {
   };
 
   return (
-    <div className="wrapper">
-      <input
-        onChange={(e) => handleChange(e)}
-        value={product.name}
-        type="text"
-        name="name"
-        placeholder="product name"
-      />
-      <input
-        onChange={(e) => handleChange(e)}
-        value={product.price}
-        type="text"
-        name="price"
-        placeholder="price"
-      />
-      <input
-        onChange={(e) => handleChange(e)}
-        value={product.description}
-        type="text"
-        name="description"
-        placeholder="description"
-      />
-      <button onClick={() => handleSubmit()}>Submit</button>
+    <div className="row align-items-center p-2 bg-info">
+      <div className="col">
+        <input
+          onChange={(e) => handleChange(e)}
+          value={product.name}
+          type="text"
+          name="name"
+          placeholder="product name"
+          className="form-control"
+        />
+      </div>
+      <div className="col-auto">
+        <input
+          onChange={(e) => handleChange(e)}
+          value={product.price}
+          type="number"
+          step="0.01"
+          name="price"
+          placeholder="price"
+          className="form-control"
+        />
+      </div>
+      <div className="col-auto">
+        <input
+          onChange={(e) => handleChange(e)}
+          value={product.description}
+          type="text"
+          name="description"
+          placeholder="description"
+          className="form-control"
+        />
+      </div>
+      <div className="col-auto">
+        <button className="btn btn-dark" onClick={() => handleSubmit()}>
+          Add New Product
+        </button>
+      </div>
     </div>
   );
 };

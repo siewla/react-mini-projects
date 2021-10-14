@@ -1,0 +1,2 @@
+:root{--modern-powder-blue:#c5e0eb;--blue-greige:#919098;--grape-putty:#897c80;--royal-midnight:#223843;--dark-fuchsia:#a80874}.App{text-align:center}.MyShoppingCart{margin-left:20%}.App{width:100%}.products{display:flex;justify-content:center}.container>div{width:100%;display:flex;flex-wrap:wrap;justify-content:space-between}li{list-style:none;padding:1%;text-align:center}li:nth-child(odd){background:#897c80;background:var(--grape-putty);color:#c5e0eb;color:var(--modern-powder-blue)}
+/*# sourceMappingURL=main.5c4da2af.chunk.css.map */
