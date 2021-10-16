@@ -3,7 +3,7 @@ import ColoredDiv from "./ColoredDiv";
 
 function App() {
   const [colors, setColors] = useState(["lightgreen", "pink", "lightblue"]);
-  const [width, setWidth] = useState(0);
+  const [width, setWidth] = useState(window.innerWidth);
 
   const updateWidth = () => {
     // console.log("running update width");
