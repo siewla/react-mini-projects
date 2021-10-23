@@ -4,10 +4,10 @@ import Procedures from "./Procedures";
 import Contact from "./Contact";
 import { Route, Link, Switch, Redirect } from "react-router-dom";
 
-// const BASE_URL = "/react-mini-projects/dentist/build";
-const BASE_URL = "/";
+const BASE_URL = process.env.REACT_APP_BASE_URL;
 
 const App = () => {
+  // console.log(BASE_URL);
   return (
     <div>
       <nav>
@@ -21,10 +21,10 @@ const App = () => {
           <Route exact={true} path={BASE_URL}>
             <Home />
           </Route>
-          <Route exact={true} path={BASE_URL + "/procedures"}>
+          <Route exact={true} path={BASE_URL + "procedures"}>
             <Procedures />
           </Route>
-          <Route exact={true} path={BASE_URL + "/contact"}>
+          <Route exact={true} path={BASE_URL + "contact"}>
             <Contact />
           </Route>
           <Redirect to="/" />
