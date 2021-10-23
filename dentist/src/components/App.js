@@ -4,10 +4,7 @@ import Procedures from "./Procedures";
 import Contact from "./Contact";
 import { Route, Link, Switch, Redirect } from "react-router-dom";
 
-const BASE_URL = process.env.REACT_APP_BASE_URL;
-
 const App = () => {
-  // console.log(BASE_URL);
   return (
     <div>
       <nav>
