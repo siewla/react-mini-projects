@@ -11,10 +11,10 @@ const App = () => {
   return (
     <div>
       <nav>
-        <Link to="/">Go to Home Page</Link>
-        <Link to="/procedures">See Our Procedures</Link>
-        <Link to="/contact">Contact Us!</Link>
-        <Link to="/dummy">Dummy Link</Link>
+        <Link to={BASE_URL}>Go to Home Page</Link>
+        <Link to={BASE_URL + "procedures"}>See Our Procedures</Link>
+        <Link to={BASE_URL + "contact"}>Contact Us!</Link>
+        <Link to={BASE_URL + "dummy"}>Dummy Link</Link>
       </nav>
       <div>
         <Switch>
@@ -27,7 +27,7 @@ const App = () => {
           <Route exact={true} path={BASE_URL + "contact"}>
             <Contact />
           </Route>
-          <Redirect to="/" />
+          <Redirect to={BASE_URL} />
         </Switch>
       </div>
     </div>
